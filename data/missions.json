@@ -1,0 +1,438 @@
+[
+  {
+    "id": "001",
+    "rank": "E",
+    "title": "Phụ giúp nông trại",
+    "description": "Đã đến mùa thu hoạch nhưng nhân công không đủ, hãy đến nông trại nằm ở phía Nam phụ giúp chủ nông trại thu hoạch bông",
+    "reward": 700,
+    "type": "Thu hoạch",
+    "short": "Đã đến mùa thu hoạch nhưng nhân công không đủ, hãy đến nông trại nằm ở phía Nam phụ giúp chủ nông..."
+  },
+  {
+    "Id": "002",
+    "rank": "E",
+    "title": "Vận chuyển hàng hóa",
+    "description": "Các cửa hàng thực phẩm đang cần nguồn hàng lớn các nhân viên vận chuyển không làm kịp cần người phụ giúp, đến nông trại và phụ giúp giao hàng",
+    "reward": 800,
+    "type": "Vận chuyển",
+    "short": "Các cửa hàng thực phẩm đang cần nguồn hàng lớn các nhân viên vận chuyển không làm kịp cần người p..."
+  },
+  {
+    "id": "100",
+    "rank": "D",
+    "title": "Tìm loài Glacialis",
+    "description": "Một đứa trẻ ở khu ổ chuột đang tìm một loài Glacialis với công dụng hạ sốt, mẹ của cậu đã bị sốt liên tục mấy ngày rồi nhưng trạm xá vẫn chưa nhập thêm loại hoa này. Hãy tìm giúp cậu bé tìm nó để mẹ cậu có thể mau hết bệnh, loài hoa này xuất hiện ở nơi lạnh nhất trong khu rừng phía đông",
+    "reward": 1000,
+    "type": "Thu thập",
+    "short": "Một đứa trẻ ở khu ổ chuột đang tìm một loài Glacialis với công dụng hạ sốt, mẹ của cậu đã bị sốt..."
+  },
+  {
+    "id": "004",
+    "rank": "D",
+    "title": "Lấy trứng chim Chimera",
+    "description": "Có một loại con Chimera sinh sống tại hồ Bán Nguyệt bên trong khu rừng phía đông, trứng của chúng là một loại thực phẩm khá ngon được các cư dân ưa chuộng. Bạn hãy giúp lấy những trứng chim Chimera về",
+    "reward": 1200,
+    "type": "Thu thập",
+    "short": "Có một loại con Chimera sinh sống tại hồ Bán Nguyệt bên trong khu rừng phía đông, trứng của chúng..."
+  },
+  {
+    "id": "005",
+    "rank": "C",
+    "title": "Tiêu diệt slime kỳ cục",
+    "description": "Đang trong mùa thu hoạch nhưng các slime đang phá hoại đồng hoa và những cánh đồng khác, chủ trang trại đnag cần người tiêu diệt chúng và thu nhập chất nhờ slime",
+    "reward": 1700,
+    "type": "Thu thập, săn bắt",
+    "short": "Đang trong mùa thu hoạch nhưng các slime đang phá hoại đồng hoa và những cánh đồng khác, chủ tran..."
+  },
+  {
+    "id": "006",
+    "rank": "B",
+    "title": "Săn bắt sói hoang",
+    "description": "Dạo gần đây đám sói trong khu rừng phía đông đang trở nên nguy hiểm dễ gây hại cho các cư dân trong trạm, vì an nguy của cư dân hãy tiêu diệt nó và thu thập nguyên liệu từ xác của chúng",
+    "reward": 2000,
+    "type": "Săn bắt, thu thập",
+    "short": "Dạo gần đây đám sói trong khu rừng phía đông đang trở nên nguy hiểm dễ gây hại cho các cư dân tro..."
+  },
+  {
+    "id": "008",
+    "rank": "D",
+    "title": "Vị ngọt",
+    "description": "Ông thợ làm bánh muốn làm ra những chiếc bánh độc lạ. Vui lòng tìm về bốn lọ mật, mỗi lọ 20ml của bốn loại hoa khác nhau trong khu rừng phía Đông",
+    "reward": 1000,
+    "type": "Thu thập",
+    "short": "Ông thợ làm bánh muốn làm ra những chiếc bánh độc lạ. Vui lòng tìm về bốn lọ mật, mỗi lọ 20ml của..."
+  },
+  {
+    "id": "009",
+    "rank": "D",
+    "title": "Vũ huyền",
+    "description": "Khu rừng phía đông có một loài chim lạ tên là Fagel. Vào mỗi ba giờ sáng Fagel sẽ tắm mình dưới chân cầu vồng ở các suối thác nhỏ và biến bộ lông mình trở nên óng ánh màu bạc, lấp lánh, nhiều màu sắc dưới nắng. Lúc này mong nhà lữ hành sẽ đem về năm chiếc lông vũ đẹp nhất của đàn chim cho nhà nhà tạo mẫu của trạm",
+    "reward": 1000,
+    "type": "Thu thập",
+    "short": "Khu rừng phía đông có một loài chim lạ tên là Fagel. Vào mỗi ba giờ sáng Fagel sẽ tắm mình dưới c..."
+  },
+  {
+    "id": "011",
+    "rank": "D",
+    "title": "Tiếng gọi hoa linh",
+    "description": "Tìm mua một chiếc váy trắng có khả năng phản chiếu ánh sáng nhiều màu dưới trăng. Tự vẽ ma pháp trận và nhảy một điệu tại quảng trường sao cho làm lay động các loại chim nhỏ của khu vực dân cư. Nhảy đến khi chúng mang đến cho nhà lữ hành một vòng hoa làm từ dây gai và hoa giấy thì thành công. Vui lòng bắt sống hai con chim đã mang vòng hoa đến kèm theo vòng hoa gai đến cho trạm.",
+    "reward": 1111,
+    "type": "Săn bắt.",
+    "short": "Tìm mua một chiếc váy trắng có khả năng phản chiếu ánh sáng nhiều màu dưới trăng. Tự vẽ ma pháp t..."
+  },
+  {
+    "id": "015",
+    "rank": "D",
+    "title": "giáp hè",
+    "description": "Thịt sứa Lune tuy không ngon nhưng có tác dụng làm mát. Hãy mua hoặc tự thu thập thịt thân sứa Lune, thêm một vài lá thơm, quả mọng, một chút xác của bọ Syrsa rồi đem đến cho những người thợ mộc để làm những chiếc giáp mát và linh hoạt hơn",
+    "reward": 1200,
+    "type": "Chế tác",
+    "short": "Thịt sứa Lune tuy không ngon nhưng có tác dụng làm mát. Hãy mua hoặc tự thu thập thịt thân sứa Lu..."
+  },
+  {
+    "id": "019",
+    "rank": "E",
+    "title": "Thời trang",
+    "description": "Một cửa hàng ở tầng hai trung tâm thương mại muốn cho khách quý thấy tài năng của mình. Hãy đi bắt mèo hoang ở đó và tổ chức một buổi trình diễn thời trang mèo hoang. Hãy chú ý, mèo hoang dễ tìm không dễ bắt, càng không dễ hợp tác kể cả khi có đồ ăn, đừng làm khách sợ hãi. ",
+    "reward": 600,
+    "type": "Bắt mèo",
+    "short": "Một cửa hàng ở tầng hai trung tâm thương mại muốn cho khách quý thấy tài năng của mình. Hãy đi bắ..."
+  },
+  {
+    "id": "120",
+    "rank": "E",
+    "title": "người may mắn",
+    "description": "Trong khu dân cư, ở khu nhà dân, có một số nơi có loại cỏ ba lá vô cùng đặc biệt, sẽ chuyển màu theo mùa. Tương truyền, vào lúc cầu vồng hiện lên sẽ sinh ra cỏ bốn lá với bốn cánh xanh lam nhạt, để dưới nắng sẽ có màu cầu vồng. Hãy thu thập cỏ bốn lá ấy, mang ra bên hồ và chờ đợi một loại chuột hoa - sinh vật chuyên ăn các loài hoa sặc sỡ. Hãy bắt con chuột đầu đàn về, biết rằng con chuột ấy mang trên lưng một đóa hoa có khả năng chữa bệnh và nó chỉ ra khi ngửi thấy đủ nhiều cỏ bốn lá cầu vồng. ",
+    "reward": 800,
+    "type": "Thu thập",
+    "short": "Trong khu dân cư, ở khu nhà dân, có một số nơi có loại cỏ ba lá vô cùng đặc biệt, sẽ chuyển màu t..."
+  },
+  {
+    "id": "023",
+    "rank": "C",
+    "title": "nuôi dưỡng thế hệ mới",
+    "description": "Mùa sinh sản tới rồi, hãy đi kiểm tra xem có con vật nhỏ nào bị rớt ở ngoài không nhé? Nếu có thì giải cứu mười con con ở tối thiểu năm loài khác nhau về trạm xá gần nhất. Nếu không thì xin nhẹ con mẹ vài con non đem về. Nhớ đừng lấy hết một ổ, đừng để con bố mẹ phải liều mạng.",
+    "reward": 1789,
+    "type": "Bắt thú",
+    "short": "Mùa sinh sản tới rồi, hãy đi kiểm tra xem có con vật nhỏ nào bị rớt ở ngoài không nhé? Nếu có thì..."
+  },
+  {
+    "id": "024",
+    "rank": "D",
+    "title": "Bổ sung đá năng lượng",
+    "description": "Ở khu vực hang động nối liền tồn tại một loài ma thú được sinh ra từ đá, tên của nó là Sten. Lõi của ma vật này có khả năng cung cấp năng lượng rất cao, hãy tiêu diệt năm con Sten và giao đến khu công nghiệp. Hãy chú ý, Sten cao ba mét, nặng hơn một tạ và có sức đập rất khủng khiếp. Sten thường đi một mình và có tính lãnh thổ cao, không sinh sản, không có con non.",
+    "reward": 1700,
+    "type": "Thu thập và vận chuyển",
+    "short": "Ở khu vực hang động nối liền tồn tại một loài ma thú được sinh ra từ đá, tên của nó là Sten. Lõi..."
+  },
+  {
+    "id": "025",
+    "rank": "C",
+    "title": "Tiêu diệt mầm họa mới",
+    "description": "Trong khu rừng phía tây có một khu vực đột nhiên cây không ra lá hay hoa làm cho hệ sinh thái đang không ngừng xôn xao. Nguyên nhân chính là vì khu vực này sắp sửa sinh ra một loài mới, một sinh vật mạnh mẽ kể cả khi mới chào đời với khả năng ẩn mình cực tốt và linh hoạt biến hóa hình dạng ngoài. Chúng chỉ xuất hiện khi sương mù dày đặc từ ba đến bốn giờ sáng. Mong nhà lữ hành lập nhóm từ ba đến năm người tiêu diệt hai mươi cá thể mới này. Hãy chú ý, loài này không có tính công kích cao, không biết nói nhưng rất giỏi trong việc thao túng và lừa gạt, giả dạng.",
+    "reward": 2000,
+    "type": "Săn, tiêu diệt",
+    "short": "Trong khu rừng phía tây có một khu vực đột nhiên cây không ra lá hay hoa làm cho hệ sinh thái đan..."
+  },
+  {
+    "id": "003",
+    "rank": "E",
+    "title": "Kẻ may mắn",
+    "description": "Ngoài bìa rừng trạm Elysium có một khu vực mà cứ cứ chiều tà lá cây sẽ rụng kín cả mặt đất. Trong số những chiếc lá ấy có một vài chiếc lá rất đặc biệt, bản thân nó sẽ chuyển thành màu vàng nhạt xen lẫn vài đốm đỏ loang lổ dưới ánh hoàng hôn. Hãy mang về hai mươi chiếc lá đặc biệt này về nguyên vẹn. Lưu ý: Loại lá này đã hiếm rồi lại còn là thức ăn chính của một loại bọ. Độc tố của loại bọ này có thể làm sưng tấy và ngứa. Tất cả những chiếc lá ở khu vực này sẽ hòa vào đất lúc nửa đêm nhưng cất riêng lá đặc biệt khỏi lá thường thì lá đặc biệt sẽ không biến mất.",
+    "reward": 700,
+    "type": "Thu thập",
+    "short": "Thu thập lá cây đặc biệt ngoài bìa rừng"
+
+  },
+  {
+    "id": "007",
+    "rank": "C",
+    "title": "Tài không lộc",
+    "description": "Gần đây có một tên cướp ẩn náu trong khu dân cư. Hẳn có khả năng cải trang và lừa gạt siêu đỉnh, đặc biệt chạy cực kì nhanh. Nghi vấn có skill bắn ra tơ, chưa xác định được kỹ năng khác. Nhà lữ hành cần bắt sống mang về. Yêu cầu: nhiệm vụ thực hiện bởi 2 - 3 người.",
+    "reward": 200,
+    "type": "bắt giữ",
+    "short": "Bắt giữ đám cướp ở khu dân cư"
+
+  },
+  {
+    "id": "101",
+    "rank": "E",
+    "title": "Bài ca của rừng",
+    "description": "Nghe đồn trong khu rừng có một cái hang sâu dẫn đến một vườn hoa thủy tinh bát ngát. Loài hoa sẽ chỉ nở một lần mỗi tuần vào ngày có nắng trưa rực rỡ nhất. Tương truyền, nếu bạn lấy được ba giọt sương sớm tinh khiết nhất từ nhụy hoa chuông, bốn giọt tinh huyết của loài chim hát hay nhất rừng, năm giọt nhựa của cái cây có lá thủy tinh vào chiều tà, hòa cùng một cốc nước thánh được cầu nguyện bởi một thiếu nữ đang yêu thì bạn sẽ có cho mình một loại nước lấp lánh ánh cầu vồng. Dùng loại nước này tưới đều cả vườn hoa vào ngày chúng nở đẹp nhất, tinh linh hoa sẽ được sinh ra từ mỗi nhụy hoa thủy tinh và ban tặng bạn một bài hát. Hãy thu lại bài hát ấy và hái bông hoa không sinh ra tinh linh hoa mang về. Lưu ý: Có thể mua quả cầu ghi lại khung cảnh này ở tiệm của thương nhân lang thang.",
+    "reward": 680,
+    "type":"Thu thập",
+    "short": "Thu được bài hát và bông hoa từ tinh linh"
+
+  },
+  {
+    "id": "102",
+    "rank": "D",
+    "title": "hắc huyết",
+    "description": "sói xám một tuổi bị trúng độc của bọ Syrsa thì máu sẽ chuyển thành màu đen, dùng máu này để ngâm trứng của chim Yeji - một loài chim có quả đầu đỏ và bộ lông xanh như trời đêm thì vỏ trứng của nó sẽ mỏng dần, hóa thành một loại kén, tiếp tục ủ kén tại ổ của bọ Syrsa thì sẽ giúp kén tách vỏ và có tỷ lệ hóa thành kim loại. Hãy nộp ba quả kim loại này cho trạm. Lưu ý: Bọ Syrsa sẽ không chủ động tấn công trừ khi đồng loại của chúng chết trước mặt chúng, thức ăn của chúng chủ yếu là thực vật có tính phản quang. Máu của bọ Syrsa có khả năng khiến sinh vật chìm vào ác mộng trong vòng mười lăm phút.",
+    "reward": 1200,
+    "type":"Thu thập",
+    "short": "Thu thập quả kim loại"
+  },
+  {
+    "id": "013",
+    "rank": "E",
+    "title": "Phiến quỷ",
+    "description": "Cây quạt thép của chị chủ nhà hàng Bách Hoa cần được nâng cấp, hãy đem cây quạt đến thuyết phục ông thợ khó tính nhất sân tập sửa cho chị. Yêu cầu: Cây quạt phải được lắp thêm dao, phải cứng cáp và đẹp hơn. Bạn phải tự cung cấp ý tưởng thiết kế cho cây quạt sau đó dùng nó đi giao chiến với một người cấp E bất kì để thử độ linh hoạt.",
+    "reward": 800,
+    "type": "Chế tác",
+    "short": "Nâng cấp cây quạt cho chủ nhà hàng"
+
+  },
+  {
+    "id": "012",
+    "rank": "C",
+    "title": "hoa sứa",
+    "description": "Dưới đáy hồ Bán Nguyệt có một loại thực vật màu xanh lam, đến mùa sẽ nở hoa màu vàng nhạt rất đẹp. Loại hoa này tỏa ra ánh sáng nhạt thu hút những con sứa đặc biệt sống kí sinh. Sứa lớn lên sẽ có hình dáng giống như một bông hoa, yểu điệu mà cũng kịch độc, giữa thân là bông hoa mà nó từng kí sinh. May mắn thay, loại độc này không có tác dụng quá mạnh với sinh vật trên cạn, chỉ gây tê liệt mười phút với bộ phận bị cắn phải. Hãy mang về trái tim của mười lăm con sứa có ánh sáng vàng nhạt. Lưu ý: Sứa không gây hại nhưng con khác thì chưa chắc, hãy hạn chế giết sinh vật khác để không phá hủy môi trường của hồ.",
+    "reward": 1777,
+    "type" : "Săn bắt.",
+    "short": "Thu thập hoa dưới hồ Bán Nguyệt"
+
+  },
+  {
+    "id": "103",
+    "rank": "C",
+    "title": "Tháp rơi",
+    "description": "Khu rừng phía đông có một thác nước lớn có tên là Ova. Tương truyền, nếu bạn thu thập đủ mười hai loại nguyên liệu dân gian quý hiếm đặt theo lời sấm truyền của khu rừng thì thủy quái với làn da ngũ sắc sẽ hiện thân, hãy mang tiêu diệt và mang con thủy quái ấy về. Yêu cầu: Nhiệm vụ dành cho nhóm từ hai người trở lên, tối đa năm người. Vui lòng tự mình tìm kiếm thông tin từ những người đặc biệt của trạm.",
+    "reward": 1900,
+    "type": "Săn bắt.",
+    "short": "Tiêu diệt loài thủy quái"
+
+  },
+  {
+    "id": "014",
+    "rank": "C",
+    "title": "An nghỉ",
+    "description": "Trong khu ổ chuột có ẩn nấp một con quỷ cây, con quỷ này vô cùng u ám khiến cho khu ổ chuột lúc nào cũng nồng nặc mùi tử khí. Nhà lữ hành cần đi mua một cái quan tài đỏ và khiến cho con quỷ cây ấy nằm ngủ ở trong quan tài đó giữa một nơi nắm sáng rõ ở khu rừng phía đông. Hãy thu thập ánh sáng sáng xanh dương bay lên khi người cây và cái hòm hòa vào đất. Lưu ý: Khu dân cư có một người bán hòm, hãy nhờ cô ấy vẽ vài kí tự lên cái hòm đó để siêu độ cho linh hồn quỷ cây kiếp sau làm cư dân của trạm Elysium. Người cây có kỹ năng sương mù, duy trì khi quỷ cây cảm thấy bị đe dọa. Máu của quỷ cây rất độc, cành cây của quỷ cây có thể dài ra mười mét và làm vỡ một tảng đá. Lập nhóm từ hai đến ba người.Phải giữ lại xác cho người cây, có thể mua thuốc độc tại nơi uy tín.",
+    "reward": 1900,
+    "type": "Săn bắt.",
+    "short": "Giúp người cây được chôn cất cẩn thận" 
+
+  },
+  {
+    "id": "016",
+    "rank": "D",
+    "title": "Tình ca",
+    "description": "Nhà lữ hành cần tìm một cây đàn làm từ sương sớm độc quyền của quý cô trong khu chợ, ru những người ở khu ổ chuột ngủ say đủ tám tiếng vào ban đêm, rồi lặng lẽ lục soát từng nhà tìm cho được mầm cây tăng năng suất mới trước khi chúng bị luộc lên. Những người dân tội nghiệp không hiểu giá trị của nó nhưng chúng ta thì có. Hãy nộp hạt giống cho khu công nghiệp. Hãy nhớ rằng đừng để họ biết điều gì, bạn chỉ cần hát, làm say lòng các thiếu nữ và say giấc muôn dân. Lưu ý: Nếu có ai không ngủ, lập tức tiêu diệt, đó không còn là cư dân của trạm.",
+    "reward": 1000,
+    "type": "Thu thập",
+    "short": "Tìm mầm cây tăng năng suất bằng việc ru ngủ"
+
+  },
+  {
+    "id": "017",
+    "rank": "D",
+    "title": "Kid",
+    "description": "Lũ trẻ ở khu vực công viên nước do mãi chơi nên không chịu về. Yêu cầu nhà lữ hành chơi cùng chúng, trong lúc đó hãy tìm thấy chúng và mang chúng về với gia đình. Nếu trông chúng không được đẹp thì hãy tìm cho chúng những cái giường đẹp rồi mới trả về. Yêu cầu: nhiệm vụ hai đến ba người. Tổng cộng năm đứa nhỏ.",
+    "reward": 1200,
+    "type": "Tìm kiếm",
+    "short": "Tìm trẻ nhỏ đi lạc"
+
+  },
+  {
+    "id": "018",
+    "rank": "D",
+    "title": "Khai thác quặng mới",
+    "description": "Đến khu mỏ bỏ hoang, tìm con bọ Adel, một loại bọ có đôi mắt lấp lánh như pha lê và máu có tính chất như thủy tinh lỏng. Nhà lữ hành cần mang về 5kg đá từ mắt của bọ Adel trưởng thành và một lít từ máu của con bọ này. Lưu ý: Vui lòng không đi sâu vào khu mỏ, có khí độc. Vui lòng không sử dụng đòn công kích quá mạnh làm sập khu mỏ.",
+    "reward": 1200,
+    "type": "Săn bắt.",
+    "short": "Thu thập đá từ mắt bọ"
+
+  },
+  {
+    "id": "021",
+    "rank": "D",
+    "title": "Điệp viên không bí mật lắm",
+    "description": "Trong khách sạn Elysium có một đầu bếp rất tài, món ăn của ông làm say mê không biết bao nhiêu quý nhân trong khách sạn. Tuy nhiên, ông lại phải lòng một người mặt lạnh như tiền, góa chồng và đã có một con. Bà là quản lý khách sạn, hai người chỉ gặp nhau mỗi ngày một lần ở tầng thượng khi ông lên trình diễn kỹ thuật cho khách quý. Hãy mang câu trả lời của bà đến cho ông vào một đêm trăng mà không làm ông buồn lòng. Tính tình ông không tốt. Lưu ý: Con trai bà quản lý là học trò của ông. Có thể mua thêm thông tin tại lễ tân khách sạn hoặc thương nhân lang thang.",
+    "reward": 1114,
+    "type": "Đưa thư",
+    "short": "Giao thư một cách bí mật"
+
+  },
+  {
+    "id": "106",
+    "rank": "D",
+    "title": "Hãy từ chối kẻ không mời",
+    "description": "Tại công viên mạo hiểm có một căn nhà ma đã cũ nhưng mãi mà trạm chưa gỡ bỏ được, đành phải tiếp tục vận hành. Nhân viên ở đây rất nhiệt tình nhưng chỉ nhân viên nhiệt tình mà thôi. Hãy tiêu diệt những kẻ phi vật thể đang định cư trái phép lẫn vào cư dân trong nhà ma. Yêu cầu: nhiệm vụ từ 2 đến 5 người, nếu nhóm không có dị năng phù hợp với nhiệm vụ, có thể mua đạo cụ hoặc chiêu mộ trên kênh liên quan. Cư dân trái phép rất muốn biến bạn thành họ bằng những từ hoa mỹ, hãy từ chối. Sau khi từ chối ba lần, chạy ngay đi. Đặc tính của cư dân trái phép: công kích tinh thần, móng tay có chất ăn mòn, bay hoặc chạy rất nhanh. Những cá nhân áo đỏ có tiếng cười công kích màn nhĩ, áo đen có khả năng thao túng, duy có áo trắng hiền hòa nhất, tạo ra hố đen đường kính một mét nuốt khách tham quan vào đó và ăn thịt.",
+    "reward": 1200,
+    "type": "Tiêu diệt",
+    "short": "Tiêu diệt... ma?"
+
+  },
+  {
+    "id": "022",
+    "rank": "D",
+    "title": "Thu thập cây Beller",
+    "description": "Loài lợn rừng Akubel có tập tính tích trữ đồ ăn, trong đó, Akubel thích nhất là tích trữ chim Ringer - một loại chim với lõi có thể mọc lên những cái cây nho nhỏ như đậu nành. Mùa này là mùa cây Beller nảy mầm từ xác chim Ringer trong điều kiện ẩm thấp của hang lợn rừng Akubel. Hãy thu thập hai tạ loại cây này (cả xác chim) và phân phát đến các trạm xá. Lưu ý: Nhiệm vụ 1 đến 3 người. Mùa này cũng là mùa lợn mẹ đẻ con, đừng giết con non của nó vì lợn Akubel thù rất dai.",
+    "reward": "1200",
+    "type": "thu thập",
+    "short": "Thu thập cây và xác chim từ ổ lợn rừng"
+
+
+  },
+  {
+    "id": "107",
+    "rank": "C",
+    "title": "Đừng để bị câu",
+    "description": "Vực sâu vạn trượng, địa bàn của những kẻ bị ruồng bỏ, bị chống đối, những kẻ không được trạm công nhận là sinh vật đều sinh sống ở nơi đây. Hãy mua cần câu dị năng thả mồi là một loài thực vật phát ra ánh sáng. Hãy thả từ từ xuống vực, càng sâu càng tốt, đừng vội vàng kẻo bị bật lên cả chủ. Hãy câu lên hai thứ, một là linh hồn tà ác có khả năng gây ra ác mộng, hai là sinh vật ngoại lai với sáu đôi mắt rắn. Lấy năng lượng từ linh hồn và lấy đi trái tim còn sáng của sinh vật ngoại lai. Hãy nhớ rằng bạn không chỉ câu nó lên, còn phải chiến đấu với nó. Lưu ý: Tiêu chuẩn trên là cho một người, nhưng kiến nghị nhóm mạo hiển giả đi từ nhóm 3 người trờ lên. Đi đội bao nhiêu thì thành phẩm phải bấy nhiêu. Đạo cụ liên quan có bán hoặc có thông tin được bán ở chỗ thương nhân lang thang.",
+    "reward": 2000,
+    "type": "Săn bắt.",
+    "short": "Câu những thứ kì lạ, và đừng để bị câu"
+
+  },
+  {
+    "id": "108",
+    "rank": "C",
+    "title": "Săn tìm kho báu",
+    "description": "Thỏ Pherah hay còn gọi là Per, một loại thỏ không có gì đặc biệt ngoài việc chúng sẽ dẫn bạn tới kho báu nguy hiểm nhất nếu bạn cho chúng ăn một chiếc cà rốt màu tím vàng (loại hiếm gặp vì chúng là cá thể đột biến trong đám bình thường, mọc quanh hồ) khắc hình ngôi nhà có quả sung bên trong. Hãy xin cấp phép được mang theo một mảnh từ viên đá Blue đã được gia công(được làm lại từ lõi Sten nên phải xin được cấp phép xài), nó sẽ giúp bạn hồi phục năng lượng (nếu bạn chơi hệ phép) một lần. Hãy vẽ lại bản đồ nơi bạn đến, tiêu diệt quái vật và mang về một thứ kì lạ nhất làm tin. Thỏ Pherah không hứng thú với vàng, bạc hay kim cương nên hãy cẩn thận thứ bạn nhìn thấy không phải là lòng tham của chính bạn để rồi bị quái vật canh giữ tiễn đi.  Lưu ý: Nhiệm vụ tối đa ba người.",
+    "reward": 2000,
+    "type": "Tìm kho báu",
+    "short": "Cố gắng tìm ra kho báu được ẩn giấu"
+
+  },
+  {
+    "id": "031",
+    "rank": "B",
+    "title": "Trồng cây",
+    "description": "Trạm đang thử nghiệm một hạt giống mới với bộ rễ vô cùng phức tạp và môi trường sống có phần đặc biệt. Hãy nhận 10 hạt giống và đến hành tinh DB67 để gieo trồng. Không khí của hành tinh có chút giật vì độc nhưng không quá đáng kể, chủ yếu là mức độ bám dày đặc của rong rêu trên bề mặt nước khắp hành tinh. Hãy trồng các hạt giống cách nhau 10km và sâu tối thiểu 7km tính từ mặt nước. Sẽ có một vài sinh vật có hình thù kỳ lạ tụ tập, đó là vi sinh vật của hành tinh, chỉ là hơi to đến mức nhìn thấy được thôi. Tốt nhất là bạn nên đợi các hạt giống mọc răng rồi hẳn đi để đảm bảo hạt thích nghi, lúc đó nhớ đi nhanh kẻo bị làm thành phân bón. Chú ý các dòng nước mạnh, có khi chúng sẽ kéo bạn xuống vực sâu làm năng lượng dự trữ đấy.",
+    "reward":3500,
+    "type": "gieo trồng",
+    "short": "Trạm đang thử nghiệm một hạt giống mới…"
+
+  },
+  {
+    "id": "112",
+    "rank": "B",
+    "title": "Xin chào Wulfric",
+    "description": "Wulfric là một hành tinh lửa có hệ sinh thái tự nhiên cực kì kì lạ, tuy nhiên cứ 100 năm hành tinh này lại vươn tay ăn một hành tinh khác, nên nhớ xem lịch hành tinh trước khi đi làm nhiệm vụ. Nhiệm vụ là giúp những cư dân lửa bé nhỏ di cư sang hành tinh xanh bên cạnh và dâng hiến chúng cho một loài sói cũng có hệ lửa. Sau khi ăn những cư dân ấy, sói lửa sẽ đến hành tinh Wulfric để giúp bạn đưa những bông hoa lửa ăn thịt có khả năng làm bùng lên sự hận thù mê hoặc vào trạng thái ngủ đông. Mỗi người thu thập 10 bông hoa, khuyến khích đi theo đội. Lưu ý: Tuyệt đối không chạm vào những bông hoa lửa chưa vô hiệu hóa, nếu lỡ chạm vào thì cứ đánh ngất đem về trạm chữa trị. Người lửa là những sinh vật đơn bào đơn giản có thể phát ra âm thanh của trẻ em cười, xin đừng mủi lòng. Ngoài ra, nhiệt độ trên hành tinh rất nóng, thường xuyên có vòi rồng lửa và động đất. Sinh vật duy nhất có trí tuệ là thằn lằn lửa nhưng đừng nói chuyện với nó làm gì.",
+    "reward":5000,
+    "type": "Thu thập",
+    "short": "Hái hoa ở Wulfric - Wulfric là một hành tinh lửa có hệ sinh thái tự nhiên cực kì kì lạ…"
+
+  },
+  { 
+    "id": "032",
+    "rank": "B",
+    "title": "Vớt sao",
+    "description": "Hành tinh 18DB67 là một hành tinh màu xanh lá cây với toàn bộ bề mặt là nước và toàn bộ nước bị phủ bởi một tầng tảo xanh. Nhưng cứ mỗi tháng một lần, khi mà mặt trăng của hành tinh này ở trên đỉnh đầu quả tim thì toàn bộ thực vật sẽ biến thành màu tím. Hãy gạt phần tảo trên bề mặt ra và đợi chờ các vi sinh vật gần mặt nước biến thành hình dạng màu trắng, mềm nhũn như thạch và nổi lên mặt nước. Vớt cho đủ 50 vì sao rồi quay lại, nhớ là đừng có nếm, nó gây ảo giác đấy.",
+    "reward":3500,
+    "type": "Thu thập",
+    "short": "Vớt lấy những ngôi sao dưới nước"
+
+  },
+  {
+    "id": "033",
+    "rank": "B",
+    "title": "Truyền bá",
+    "description": "Hãy đến và giúp chính quyền của những kẻ hòa bình trên hành tinh FF3351 trấn an người dân bằng tôn giáo. Khi không còn gì cả, thứ duy nhất người ta có thể bám víu vào là đức tin nên hãy thật nhẹ nhàng. Đừng để người của bên chiến tranh tìm thấy, hãy truyền dũng khí cho những kẻ khao khát hòa bình. Và tuyệt đối không trực làm thương tổn quá 60% với cư dân trên hành tinh bất kể họ tốt hay xấu.",
+    "reward":4000,
+    "type": "Hỗ trợ",
+    "short": "Đức tin của hy vọng"
+
+  },
+  {
+    "id": "113",
+    "rank": "B",
+    "title": "Giao hàng",
+    "description": "Mang trái cây của Elysium đến giao cho tầng cao nhất của hành tinh Gelovigen và cùng họ thực hiện một nghi lễ nhận năng lượng từ mặt trời xanh dương. Sau đó nhận đá nguyên liệu của họ và quay về. Chủng tộc Ippókampos có khả năng sẽ yêu cầu bạn tiêu diệt thêm chủng tộc khác, hãy mặc kệ họ và giữ đúng giá cả. Đừng chọc giận họ kẻo không về được đâu. Đừng ở quá lâu trên hành tinh đó cũng đừng nói gì về việc họ có màu hơi xám, nếu bị chóng mặt hay khó dùng được dị năng cũng hoàn toàn bình thường, nếu có vài giây mất ý thức thì tốt nhất là đừng ở lại. Không được ăn hay uống hay ngủ vì bạn không biết mình rước phải con ký sinh trùng nào vào đâu.",
+    "reward":3556,
+    "type": "Thu thập",
+    "short": "Trao đổi với hành tinh Gelovigen"
+
+  },
+  {
+    "id": "024",
+    "rank": "E",
+    "title": "Hòa âm của vũ trụ",
+    "description": "Cứ đúng hai giờ đêm theo giờ của Elysium, có một chú cá voi bán trong suốt bơi ngang qua rìa của Thái Dương hệ, Nhiệm vụ của bạn là ghi âm được tiếng kêu của nó. Biết rằng cá voi vũ trụ là một người mẹ nhân hậu, có thể mang một sinh vật đang khóc bất kì đến trước mặt bà để được nghe hát ru. Lưu ý: Tiếng khóc phải đủ lớn để cá voi nghe thấy. Cá voi dễ bị thu hút nếu ánh sáng tự nhiên đủ lớn và dịu dàng. Đừng quan tâm đến du hồn lơ đễnh theo cá voi và cũng đừng chìm đắm vào âm thanh, thu đủ 66s là phải đi ngay.",
+    "reward": 700,
+    "type": "Thu thập",
+    "short": "Ghi âm cá voi"
+
+  },
+  {
+    "id": "025",
+    "rank": "E",
+    "title": "Vua đầu bếp",
+    "description": "Trong khu vực cư dân có một ông lão biết vẽ những thiết kế tài hoa nhưng lại rất cáu kỉnh trong chuyện ăn uống. Thi thoảng ông lại giận dỗi bỏ làm về nhà uống rượu. Hãy sáng tạo ra những món ăn từ những con vật mà người khác nghĩ là không ăn được để thuyết phục ông lão đi làm lại ",
+    "reward": 650,
+    "type": "Hỗ trợ",
+    "short": "Nấu ăn cho ông lão"
+
+  },
+  {
+    "id": "026",
+    "rank": "E",
+    "title": "Mỹ nhân dỗi",
+    "description": "Bất kỳ nhà lữ hành nào cũng từng gặp qua cô ấy - cô lễ tân liên chủng tộc của Elysium. Một cô nàng không hẳn sẽ trưng ra bộ mặt khó ở đón tiếp các bạn nhưng niềm vui dường như lắng quá sâu. Hãy tìm kiếm một bí mật ít ai biết đến ở ELysium và đến làm cô bật cười.",
+    "reward": 600,
+    "type": "Hỗ trợ",
+    "short": "Hỗ trợ nụ cười cho cô lễ tân."
+
+  },
+  {
+    "id": "027",
+    "rank": "E",
+    "title": "Hỗ trợ bảo an bảo dưỡng vũ khí",
+    "description": "Đội bảo an thật ra cũng không cần được bảo dưỡng vũ khí lắm nhưng dù sao thì đây cũng là một cơ hội học hỏi đáng kể nên các nhà lữ hành hãy đi thu gom vũ khí ở các cơ sở bảo an và đem xuống tầng hầm để được bảo dưỡng",
+    "reward": 700,
+    "type": "Hỗ trợ",
+    "short": "Hỗ trợ đội bảo an"
+
+  },
+  {
+    "id": "105",
+    "rank": "E",
+    "title": "bướm nhỏ",
+    "description": "Cơ chế sinh học đặc biệt của Elysium đã tạo ra một loài bướm mới vào ban đêm có tên là Bedriegen. Tuy nhiên vì loài này chỉ mới xuất hiện gần đây nên chưa được trạm liệt kê vào danh sách. Hãy bắt bảy con bướm có độ dài khoảng 13cm biết rằng chúng chỉ xuất hiện quanh những kẻ thức thâu đêm và nhồi nhét những lời dối trá.",
+    "reward": 727,
+    "type": "săn bắt",
+    "short": "Bắt bướm"
+
+  },
+  {
+    "id": "028",
+    "rank": "E",
+    "title": "tìm mèo",
+    "description": "Cô chủ của tiệm cà phê mèo bận đi chơi với trai (hoặc gái) mà sơ ý làm lạc vài con mèo tinh ranh mất rồi, hãy giúp cô ấy tìm lại những con mèo ham chơi của mình nhé. Cô ấy có thể tặng bạn một ly nước nếu bạn hiền lành thân thiện á.",
+    "reward": 727,
+    "type": "Hỗ trợ",
+    "short": "Nấu ăn cho ông lão"
+
+  },
+  {
+    "id": "109",
+    "rank": "E",
+    "title": "an táng",
+    "description": "Thỉnh thoảng ở trong những con đường vắng lặng của khu ổ chuột sẽ có những kẻ bị cuộc đời bỏ quên. Hãy tìm gặp người bán quan tài dạo để mua một cái quan tài sợi nấm. Quan tài này có thể giúp thân thể nhanh chóng được trả về với đất mẹ hoàn toàn. Sau đó đem chôn họ vào rừng sâu và cầu nguyện sau này những cây nấm mọc lên không bị tự nhiên ruồng bỏ.",
+    "reward": 800,
+    "type": "Hỗ trợ",
+    "short": "Trả những kẻ bị bỏ quên về lại tự nhiên"
+
+  },
+  {
+    "id": "029",
+    "rank": "E",
+    "title": "Xem bói",
+    "description": "Tín ngưỡng chưa từng là xấu nhưng cũng không phải một cái cớ bám víu cho tội ác. Hãy mở một sạp xem bói ở bất cứ đâu và giúp người dân có một ngày thật an lành.",
+    "reward": 600,
+    "type": "Hỗ trợ",
+    "short": "600"
+
+  },
+  {
+    "id": "110",
+    "rank": "E",
+    "title": "Chụp ảnh",
+    "description": "Hãy chụp một tấm album những cảnh đẹp của Elysium bao gồm không giới hạn ở những khung cảnh sinh hoạt, hoàn hôn hay là chiến đấu. Sau đó hãy mang những câu chuyện ấy đến cho những đứa trẻ không may mắn ở bất cứ đâu.",
+    "reward": 800,
+    "type": "Hỗ trợ",
+    "short": "Bạn đã nhìn thấy hết cảnh đẹp của Elysium chưa?"
+
+  }
+  
+]
