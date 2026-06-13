@@ -2,11 +2,11 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const path = require('path');
 require('dotenv').config();
 
-const dbPath = path.join(__dirname, '..', '..', '..', 'shared', 'database', 'db.js');
+const dbPath = path.join(__dirname, 'shared', 'database', 'db.js');
 const { db, getOrCreateUser } = require(dbPath);
-const logger = require('../../../shared/utils/logger');
-const roleManager = require('../../../shared/utils/roleManager');
-const achievements = require('../../../shared/utils/achievements');
+const logger = require('./shared/utils/logger');
+const roleManager = require('./shared/utils/roleManager');
+const achievements = require('./shared/utils/achievements');
 
 function countWords(text) {
   return text.trim().split(/\s+/).filter(Boolean).length;

@@ -4,9 +4,9 @@ const path = require('path');
 // ========================================
 // IMPORT DATABASE
 // ========================================
-const dbPath = path.join(__dirname, '..', '..', 'shared', 'database', 'db.js');
+const dbPath = path.join(__dirname, 'shared', 'database', 'db.js');
 const { db } = require(dbPath);
-const rateLimiter = require('../shared/utils/rateLimiter.js');
+const rateLimiter =require('./shared/utils/rateLimiter.js');
 
 // ========================================
 // EVENT HANDLER

@@ -98,7 +98,7 @@ logger.info(`Events loaded: ${eventFiles.length}`);
 // ========================================
 // INTERACTION CREATE (with rate limiting)
 // ========================================
-const rateLimiter = require('../shared/utils/rateLimiter.js');
+const rateLimiter = require('./shared/utils/rateLimiter.js');
 
 client.on('interactionCreate', async interaction => {
   // ========================================
@@ -173,7 +173,7 @@ client.on('interactionCreate', async interaction => {
       }
       
       try {
-        const { db } = require('../shared/database/db');
+        const { db } =require('./shared/database/db');
         
         // Check if user already has mission
         const existingMission = db.prepare(`
