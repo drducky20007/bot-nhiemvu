@@ -6,7 +6,7 @@ require('dotenv').config();
 // ========================================
 // IMPORT LOGGER
 // ========================================
-const logger = require('../shared/utils/logger.js');
+const logger = require('./shared/utils/logger.js');
 
 // ========================================
 // CREATE CLIENT
