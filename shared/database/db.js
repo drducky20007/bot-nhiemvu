@@ -1,42 +1,31 @@
-const initSqlJs = require('sql.js');
+const Database = require('sqlite');
 const fs = require('fs');
 const path = require('path');
 
 const DB_PATH = path.join(__dirname, '../../data/bot.db');
 const SCHEMA_PATH = path.join(__dirname, 'schema.sql');
 
-let db;
-let SQL;
-
-async function initDb() {
-  SQL = await initSqlJs();
-  
-  try {
-    if (fs.existsSync(DB_PATH)) {
-      const buffer = fs.readFileSync(DB_PATH);
-      db = new SQL.Database(buffer);
-    } else {
-      db = new SQL.Database();
-    }
-    console.log('✅ Database connection established');
-  } catch (error) {
-    console.error('❌ Failed to connect to database:', error);
-    process.exit(1);
-  }
+// Tạo thư mục data
+const dataDir = path.dirname(DB_PATH);
+if (!fs.existsSync(dataDir)) {
+  fs.mkdirSync(dataDir, { recursive: true });
 }
 
-function saveDb() {
-  const data = db.export();
-  const buffer = Buffer.from(data);
-  fs.writeFileSync(DB_PATH, buffer);
+// Khởi tạo DB (SYNCHRONOUS - không cần async!)
+let db;
+try {
+  db = new Database(DB_PATH);
+  console.log('✅ Database connection established');
+} catch (error) {
+  console.error('❌ Failed to connect to database:', error);
+  process.exit(1);
 }
 
 function initDatabase() {
   try {
     console.log('🔨 Initializing database schema...');
     const schema = fs.readFileSync(SCHEMA_PATH, 'utf8');
-    db.run(schema);
-    saveDb();
+    db.exec(schema);
     console.log('✅ Database schema initialized!');
   } catch (error) {
     console.error('❌ Failed to initialize schema:', error);
@@ -44,11 +33,11 @@ function initDatabase() {
 }
 
 function getOrCreateUser(userId, username = null) {
-  let user = db.exec('SELECT * FROM users WHERE user_id = ?', [userId]);
+  const user = db.prepare('SELECT * FROM users WHERE user_id = ?').get(userId);
   
-  if (!user || user.length === 0) {
-    db.run('INSERT INTO users (user_id, username, balance) VALUES (?, ?, 0)', [userId, username]);
-    saveDb();
+  if (!user) {
+    db.prepare('INSERT INTO users (user_id, username, balance) VALUES (?, ?, 0)')
+      .run(userId, username);
     console.log(`➕ Created new user: ${userId}`);
   }
   
@@ -57,8 +46,6 @@ function getOrCreateUser(userId, username = null) {
 
 module.exports = {
   db,
-  initDb,
   initDatabase,
-  getOrCreateUser,
-  saveDb
+  getOrCreateUser
 };
