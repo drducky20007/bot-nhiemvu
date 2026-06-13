@@ -4,7 +4,7 @@ const path = require('path');
 // ========================================
 // IMPORT DATABASE
 // ========================================
-const { db } = require('../../shared/database/db.js');
+const { db } = require('../shared/database/db.js');
 
 // ========================================
 // IMPORT UTILS
