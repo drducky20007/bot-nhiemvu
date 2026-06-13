@@ -30,4 +30,5 @@ module.exports = {
   debug: (msg, data) => log('DEBUG', msg, data),
   security: (type, userId, msg) => log('SECURITY', `[${type}] User: ${userId} - ${msg}`),
   system: (msg, data) => log('SYSTEM', msg, data),
+  command: (msg, data) => log('COMMAND', msg, data),
 };
