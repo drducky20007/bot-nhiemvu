@@ -1,4 +1,4 @@
-const Database = require('better-sqlite3');
+const Database = require('sqlite');
 const path = require('path');
 const fs = require('fs');
 
@@ -17,11 +17,9 @@ if (!fs.existsSync(dataDir)) {
 let db;
 try {
   db = new Database(DB_PATH, { 
-    verbose: console.log // Log SQL queries (tắt trong production)
+    cached: true
   });
   
-  // Enable WAL mode cho performance tốt hơn
-  db.pragma('journal_mode = WAL');
   console.log('✅ Database connection established');
   
 } catch (error) {
@@ -55,7 +53,7 @@ function initDatabase() {
 }
 
 /**
- * Helper: Get user by ID (tạo nếu chưa có)
+ * Helper: Get user by ID
  */
 function getOrCreateUser(userId, username = null) {
   let user = db.prepare('SELECT * FROM users WHERE user_id = ?').get(userId);
