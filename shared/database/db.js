@@ -198,17 +198,11 @@ const db = {
       }
       
       try {
-        sqlDb.run('BEGIN TRANSACTION');
+        // sql.js doesn't support BEGIN/COMMIT - just run the function
         const result = fn(...args);
-        sqlDb.run('COMMIT');
         saveDb();
         return result;
       } catch (error) {
-        try {
-          sqlDb.run('ROLLBACK');
-        } catch (rollbackErr) {
-          console.error('❌ Rollback error:', rollbackErr.message);
-        }
         console.error('❌ Transaction error:', error.message);
         throw error;
       }
