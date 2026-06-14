@@ -188,6 +188,31 @@ const db = {
     } catch (error) {
       console.error('❌ DB exec error:', error.message);
     }
+  },
+  
+  transaction: (fn) => {
+    return (...args) => {
+      if (!sqlDb) {
+        console.error('❌ Database not initialized!');
+        throw new Error('Database not initialized');
+      }
+      
+      try {
+        sqlDb.run('BEGIN TRANSACTION');
+        const result = fn(...args);
+        sqlDb.run('COMMIT');
+        saveDb();
+        return result;
+      } catch (error) {
+        try {
+          sqlDb.run('ROLLBACK');
+        } catch (rollbackErr) {
+          console.error('❌ Rollback error:', rollbackErr.message);
+        }
+        console.error('❌ Transaction error:', error.message);
+        throw error;
+      }
+    };
   }
 };
 
