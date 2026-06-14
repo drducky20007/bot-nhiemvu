@@ -18,11 +18,25 @@ async function initDb() {
     } else {
       sqlDb = new SQL.Database();
     }
+
+        initDatabase();
     console.log('✅ Database connection established');
     return sqlDb;
   } catch (error) {
     console.error('❌ Failed to connect to database:', error);
     process.exit(1);
+  }
+}
+
+function initDatabase() {
+  try {
+    if (!sqlDb) return;
+    const schema = fs.readFileSync(SCHEMA_PATH, 'utf8');
+    sqlDb.run(schema);
+    saveDb();
+    console.log('✅ Database schema initialized!');
+  } catch (error) {
+    console.error('❌ Failed to initialize schema:', error);
   }
 }
 
