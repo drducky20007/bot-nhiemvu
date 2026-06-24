@@ -2,7 +2,10 @@ const initSqlJs = require('sql.js');
 const fs = require('fs');
 const path = require('path');
 
-const DB_PATH = path.join(__dirname, '../../data/bot.db');
+const isAsherBot = __dirname.includes('asher-bot');
+const DB_PATH = isAsherBot 
+  ? path.join(__dirname, '../../data/asher-bot.db')
+  : path.join(__dirname, '../../data/bot-nhiemvu.db');
 const SCHEMA_PATH = path.join(__dirname, 'schema.sql');
 
 let SQL = null;
